@@ -35,7 +35,7 @@ header nav ul li {
 }
 
 header nav ul a:hover {
-    border-bottom: solid 1px rgb(255, 0, 0);
+    border-bottom: solid 1px #1383AB;
 }
 
 header nav ul li a {
@@ -92,7 +92,8 @@ section figure {
 }
 
 section figure img {
-    width: 70%;
+    width: 82%;
+    margin-left: 10%;
 }
 
 section article {
@@ -100,6 +101,8 @@ section article {
     float: left;
     padding: 5% 2.5%;
     padding-right: 5%;
+    margin-left: -5%;
+    text-align: justify;
 }
 
 section article h1 {
@@ -110,6 +113,7 @@ section article h1 {
 section article p {
     margin-top: 5%;
     color: #000000;
+    font-size: 1.5em;
 }
 
 section article strong {
