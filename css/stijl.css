@@ -133,20 +133,38 @@ main section {
     width: 40%;
     float: left;
     padding: 2%;
-    margin-left: 5%;
     text-align: center;
-    background-color: yellow;
+}
+
+.liability {
+    margin-left: 20%;
+    display: list-item;
+    list-style-type: square;
+    padding: 2% 0%;
+    text-align: center;
+}
+
+.asset {
+    margin-left: -15%;
+    display: list-item;
+    padding: 2% 0%;
+    text-align: center;
+}
+
+.liability li {
+    text-align: left;
+    list-style-type: square;
+    padding: 2% 0%;
+}
+
+.asset li {
+    text-align: left;
+    list-style-type: square;
+    padding: 2% 0%;
 }
 
 main section ul {
     display: inline-block;
-}
-
-main section li {
-    display: list-item;
-    list-style-type: square;
-    padding: 5% 0%;
-    text-align: left;
 }
 
 main section header {
