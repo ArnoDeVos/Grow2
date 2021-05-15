@@ -213,7 +213,7 @@ main>figure {
 main>figure>figure {
     width: 18.75%;
     margin-left: 5%;
-    height: 550px;
+    height: 36vw;
     float: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,7 +282,7 @@ figure>figure:hover .blokje {
 }
 
 footer {
-    background-image: url(../img/footer-background.jpg);
+    background-color: rgb(161, 161, 161);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
