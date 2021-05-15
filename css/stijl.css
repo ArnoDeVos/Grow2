@@ -21,13 +21,13 @@ header {
 }
 
 header nav img {
-    margin: 45px;
-    width: 12%;
+    margin: 3%;
+    width: 20%;
 }
 
 header nav ul {
     float: right;
-    padding-right: 30px;
+    padding-right: 3%;
 }
 
 header nav ul li {
@@ -318,6 +318,7 @@ input[type=text] {
     border: 1px solid white;
     padding: 8px;
     background-color: rgba(0, 0, 0, 0.1);
+    width: 185px;
 }
 
 input::placeholder {
