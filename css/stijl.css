@@ -251,7 +251,8 @@ main>figure>figure:nth-child(4) {
     opacity: 0;
     transition: ease 0.2s;
     cursor: pointer;
-    border-bottom: solid 8px #fd3b00;
+    border-bottom: solid 8px #1383AB;
+    ;
 }
 
 .blokje p {
@@ -261,7 +262,7 @@ main>figure>figure:nth-child(4) {
 }
 
 .blokje a {
-    color: #fd3b00;
+    color: #1383AB;
     text-decoration: none;
 }
 
@@ -277,15 +278,21 @@ figure>figure:hover .blokje {
     margin-bottom: 10%;
     margin-top: 5%;
     border: 1px solid grey;
-    height: 20vw;
+    height: 38vw;
 }
 
 .column h2 {
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #1383AB;
 }
 
 .column p {
     text-align: left;
+    font-size: 1.5em;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 footer {
@@ -300,13 +307,16 @@ footer {
 
 footer h1 {
     font-size: 2em;
+    color: white;
     border-bottom: 1px solid white;
     padding-bottom: 2%;
+    text-align: center;
 }
 
 footer .lijntje {
-    width: 170px;
+    width: 300px;
     height: 5px;
+    margin-left: 42%;
     background-color: white;
 }
 
@@ -324,6 +334,7 @@ input[type=text] {
     padding: 8px;
     background-color: rgba(0, 0, 0, 0.1);
     width: 185px;
+    margin-left: 42%;
 }
 
 input::placeholder {
@@ -343,4 +354,15 @@ form {
 
 .vet {
     font-weight: 800;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 1% 5%;
+    font-size: 2rem;
 }
