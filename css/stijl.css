@@ -266,10 +266,13 @@ figure>figure:hover .blokje {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 30%;
     padding: 10px;
-    height: 420px;
-    /* Should be removed. Only for demonstration */
+    margin-left: 2%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border: 1px solid grey;
+    height: 20vw;
 }
 
 .column h2 {
@@ -278,7 +281,6 @@ figure>figure:hover .blokje {
 
 .column p {
     text-align: left;
-    margin-left: 32%;
 }
 
 footer {
