@@ -158,13 +158,13 @@ main section {
 .liability li {
     text-align: left;
     list-style-type: square;
-    padding: 2% 0%;
+    padding: 1% 0%;
 }
 
 .asset li {
     text-align: left;
     list-style-type: square;
-    padding: 2% 0%;
+    padding: 1% 0%;
 }
 
 main section ul {
@@ -314,7 +314,7 @@ footer h1 {
 }
 
 footer .lijntje {
-    width: 300px;
+    width: 22%;
     height: 5px;
     margin-left: 39%;
     background-color: white;
